@@ -19,6 +19,7 @@
 | 编号 | 工程 | 实现内容 |
 |---:|---|---|
 | 001 | [STM32H757XIH6 CubeMX 基础工程](001_STM32H757XIH6_CubeMX_Base/README_zh.md) | 使用 STM32CubeMX 生成 CM7 和 CM4 的初始化代码，并通过 Makefile 分别构建两份固件。 |
+| 002 | [STM32H757XIH6 Makefile 串口日志实验](002_STM32H757XIH6_Makefile_UART_Log/README_zh.md) | 通过 Makefile 构建双核固件，并在 CM7 上将 `printf` 重定向到 USART1，约每秒输出一行运行日志。 |
 
 ## 使用说明
 

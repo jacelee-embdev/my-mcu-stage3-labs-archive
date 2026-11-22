@@ -19,6 +19,7 @@ Select a project name to open its English documentation.
 | No. | Project | Description |
 |---:|---|---|
 | 001 | [STM32H757XIH6 CubeMX Base Project](001_STM32H757XIH6_CubeMX_Base/README.md) | Generates initialization code for CM7 and CM4 with STM32CubeMX and builds a separate firmware image for each core using Makefiles. |
+| 002 | [STM32H757XIH6 Makefile UART Logging Lab](002_STM32H757XIH6_Makefile_UART_Log/README.md) | Builds firmware for both cores with Makefiles and retargets CM7 `printf` to USART1 to emit a status line about once per second. |
 
 ## Usage
 

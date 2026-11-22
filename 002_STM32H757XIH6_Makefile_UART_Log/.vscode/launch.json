@@ -1,0 +1,22 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "STM32H757 - Cortex-M7",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+
+      "servertype": "jlink",
+      "serverpath": "D:/SEGGER/JLink_V812g/JLinkGDBServerCL.exe",
+      "gdbPath": "arm-none-eabi-gdb",
+
+      "device": "STM32H757XI_M7",
+      "interface": "swd",
+
+      "executable": "${workspaceFolder}/Makefile/CM7/build/STM32H757XIH6_CM7.elf",
+      "runToEntryPoint": "main"
+    }
+  ]
+}

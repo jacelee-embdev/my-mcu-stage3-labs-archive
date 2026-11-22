@@ -18,6 +18,7 @@
 
 | 编号 | 工程 | 实现内容 |
 |---:|---|---|
+| 001 | [STM32H757XIH6 CubeMX 基础工程](001_STM32H757XIH6_CubeMX_Base/README_zh.md) | 使用 STM32CubeMX 生成 CM7 和 CM4 的初始化代码，并通过 Makefile 分别构建两份固件。 |
 
 ## 使用说明
 

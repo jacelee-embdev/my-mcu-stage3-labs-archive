@@ -22,6 +22,7 @@
 | 002 | [STM32H757XIH6 Makefile 串口日志实验](002_STM32H757XIH6_Makefile_UART_Log/README_zh.md) | 通过 Makefile 构建双核固件，并在 CM7 上将 `printf` 重定向到 USART1，约每秒输出一行运行日志。 |
 | 003 | [STM32H757XIH6 按键控制 LED 实验](003_Key_Control_LED/README_zh.md) | 在 CM7 上轮询 KEY0，检测到高电平后延时 25 ms，翻转两个 LED 并通过 USART1 输出日志。 |
 | 004 | [STM32H757XIH6 外部中断实验](004_Key_EXTI_LED/README_zh.md) | CM7 通过 KEY0 上升沿中断翻转蓝灯，主循环定时翻转绿灯，两处均通过 USART1 输出日志。 |
+| 005 | [STM32H757XIH6 串口接收中断实验](005_UART_RX_Interrupt/README_zh.md) | CM7 通过 USART1 逐字节中断接收并回显十进制字节值，同时在主循环定时发送计数。 |
 
 ## 使用说明
 

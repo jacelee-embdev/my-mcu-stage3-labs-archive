@@ -1,0 +1,43 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build CM7",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "-C",
+        "Makefile/CM7",
+        "-j6"
+      ],
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Build CM4",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "-C",
+        "Makefile/CM4",
+        "-j6"
+      ],
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Build All",
+      "type": "shell",
+      "command": "make",
+      "args": [
+        "-C",
+        "Makefile",
+        "-j6"
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

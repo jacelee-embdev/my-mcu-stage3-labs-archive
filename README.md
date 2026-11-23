@@ -21,6 +21,7 @@ Select a project name to open its English documentation.
 | 001 | [STM32H757XIH6 CubeMX Base Project](001_STM32H757XIH6_CubeMX_Base/README.md) | Generates initialization code for CM7 and CM4 with STM32CubeMX and builds a separate firmware image for each core using Makefiles. |
 | 002 | [STM32H757XIH6 Makefile UART Logging Lab](002_STM32H757XIH6_Makefile_UART_Log/README.md) | Builds firmware for both cores with Makefiles and retargets CM7 `printf` to USART1 to emit a status line about once per second. |
 | 003 | [STM32H757XIH6 Button-Controlled LED Lab](003_Key_Control_LED/README.md) | Polls KEY0 on CM7, waits 25 ms after a high reading, toggles both LEDs, and logs over USART1. |
+| 004 | [STM32H757XIH6 External Interrupt Lab](004_Key_EXTI_LED/README.md) | Toggles the blue LED on a KEY0 rising-edge interrupt and the green LED periodically in the CM7 main loop, with USART1 logs from both. |
 
 ## Usage
 

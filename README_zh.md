@@ -21,6 +21,7 @@
 | 001 | [STM32H757XIH6 CubeMX 基础工程](001_STM32H757XIH6_CubeMX_Base/README_zh.md) | 使用 STM32CubeMX 生成 CM7 和 CM4 的初始化代码，并通过 Makefile 分别构建两份固件。 |
 | 002 | [STM32H757XIH6 Makefile 串口日志实验](002_STM32H757XIH6_Makefile_UART_Log/README_zh.md) | 通过 Makefile 构建双核固件，并在 CM7 上将 `printf` 重定向到 USART1，约每秒输出一行运行日志。 |
 | 003 | [STM32H757XIH6 按键控制 LED 实验](003_Key_Control_LED/README_zh.md) | 在 CM7 上轮询 KEY0，检测到高电平后延时 25 ms，翻转两个 LED 并通过 USART1 输出日志。 |
+| 004 | [STM32H757XIH6 外部中断实验](004_Key_EXTI_LED/README_zh.md) | CM7 通过 KEY0 上升沿中断翻转蓝灯，主循环定时翻转绿灯，两处均通过 USART1 输出日志。 |
 
 ## 使用说明
 

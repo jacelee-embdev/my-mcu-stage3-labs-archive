@@ -24,6 +24,7 @@
 | 004 | [STM32H757XIH6 外部中断实验](004_Key_EXTI_LED/README_zh.md) | CM7 通过 KEY0 上升沿中断翻转蓝灯，主循环定时翻转绿灯，两处均通过 USART1 输出日志。 |
 | 005 | [STM32H757XIH6 串口接收中断实验](005_UART_RX_Interrupt/README_zh.md) | CM7 通过 USART1 逐字节中断接收并回显十进制字节值，同时在主循环定时发送计数。 |
 | 006 | [STM32H757XIH6 MPU 只读保护与 MemManage 异常实验](006_MPU_ReadOnly_Fault/README_zh.md) | CM7 用 MPU 保护 SRAM 缓冲区，在尝试写入只读区域时触发 MemManage 异常，并通过 USART1 输出诊断信息。 |
+| 007 | [STM32H757XIH6 USART DMA 空闲接收与 D-Cache 实验](007_USART_DMA_IDLE_Cache/README_zh.md) | CM7 通过 USART1 DMA 和 IDLE 事件接收串口命令控制蓝灯，并在 D-Cache 启用时维护接收缓冲区。 |
 
 ## 使用说明
 

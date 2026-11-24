@@ -23,6 +23,7 @@ Select a project name to open its English documentation.
 | 003 | [STM32H757XIH6 Button-Controlled LED Lab](003_Key_Control_LED/README.md) | Polls KEY0 on CM7, waits 25 ms after a high reading, toggles both LEDs, and logs over USART1. |
 | 004 | [STM32H757XIH6 External Interrupt Lab](004_Key_EXTI_LED/README.md) | Toggles the blue LED on a KEY0 rising-edge interrupt and the green LED periodically in the CM7 main loop, with USART1 logs from both. |
 | 005 | [STM32H757XIH6 UART Receive Interrupt Lab](005_UART_RX_Interrupt/README.md) | Receives USART1 bytes by interrupt and replies with their decimal values while the CM7 main loop sends a periodic count. |
+| 006 | [STM32H757XIH6 MPU Read-Only Protection and MemManage Fault Lab](006_MPU_ReadOnly_Fault/README.md) | Makes a CM7 SRAM buffer read-only with the MPU, triggers a MemManage fault by attempting a write, and reports diagnostics over USART1. |
 
 ## Usage
 

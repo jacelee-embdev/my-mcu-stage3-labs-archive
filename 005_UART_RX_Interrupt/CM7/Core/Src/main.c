@@ -157,7 +157,7 @@ Error_Handler();
     int len = snprintf(buffer, sizeof(buffer), "%u\r\n", counter);
     HAL_UART_Transmit(&huart1, (uint8_t *)buffer, len, 1000);
 
-    HAL_GPIO_TogglePin(LED0_Greens_GPIO_Port, LED0_Greens_Pin);
+    HAL_GPIO_TogglePin(LED0_Green_GPIO_Port, LED0_Green_Pin);
     HAL_Delay(1000);
   }
   /* USER CODE END 3 */

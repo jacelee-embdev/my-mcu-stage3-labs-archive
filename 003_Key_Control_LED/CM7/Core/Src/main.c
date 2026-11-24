@@ -154,7 +154,7 @@ Error_Handler();
     {
       HAL_Delay(25);
       HAL_GPIO_TogglePin(LED1_Blue_GPIO_Port,LED1_Blue_Pin);
-      HAL_GPIO_TogglePin(LED0_Greens_GPIO_Port,LED0_Greens_Pin);
+      HAL_GPIO_TogglePin(LED0_Green_GPIO_Port,LED0_Green_Pin);
       printf("[CM7] System Running...\r\n"); 
     }
   }

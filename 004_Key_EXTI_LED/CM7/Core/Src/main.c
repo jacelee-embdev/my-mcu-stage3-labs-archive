@@ -150,7 +150,7 @@ Error_Handler();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_GPIO_TogglePin(LED0_Greens_GPIO_Port,LED0_Greens_Pin);
+    HAL_GPIO_TogglePin(LED0_Green_GPIO_Port,LED0_Green_Pin);
     printf("[CM7] System Running...\r\n"); 
     HAL_Delay(1000);
   }

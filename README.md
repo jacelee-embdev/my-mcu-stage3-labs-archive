@@ -26,6 +26,7 @@ Select a project name to open its English documentation.
 | 006 | [STM32H757XIH6 MPU Read-Only Protection and MemManage Fault Lab](006_MPU_ReadOnly_Fault/README.md) | Makes a CM7 SRAM buffer read-only with the MPU, triggers a MemManage fault by attempting a write, and reports diagnostics over USART1. |
 | 007 | [STM32H757XIH6 USART DMA Idle Reception and D-Cache Lab](007_USART_DMA_IDLE_Cache/README.md) | Receives USART1 commands with DMA and IDLE detection to control the blue LED and maintains the receive buffer when D-Cache is enabled. |
 | 008 | [STM32H757XIH6 TIM1 Update Interrupt Lab](008_TIM1_Update_Interrupt/README.md) | Handles a TIM1 update interrupt every 50 ms on CM7 to toggle the green LED and log over USART1, while the main loop uses KEY0 to control the blue LED. |
+| 009 | [STM32H757XIH6 ADC1 Voltage Measurement Lab](009_ADC1_Voltage_Measurement/README.md) | Takes one ADC1 reading on PA1 at CM7 startup, converts it to a voltage, and periodically reports the result over USART1. |
 
 ## Usage
 
